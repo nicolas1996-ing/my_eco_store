@@ -1,4 +1,40 @@
-*{
-    color: aqua;
-    background-color: blueviolet;
+footer{
+    color: rgb(0, 3, 5);
+    margin: 0;
+   background: linear-gradient(to right, #64AA69, #0A280F);
+   
+  
+   
+}
+
+
+
+.logo img{
+    height: 50px;
+}
+
+
+.contacto{
+    display: flex;
+}
+.contacto img{
+    height: 15px;
+}
+
+.email{
+    display: flex;
+}
+.email img{
+    height: 15px;
+}
+
+.enlaces{
+
+}
+
+.redes{
+
+}
+.social img{
+    height: 15px;
 }
