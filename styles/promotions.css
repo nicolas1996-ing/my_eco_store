@@ -6,7 +6,7 @@
 }
 
 ul li{
-    background-color: #72b66b;
+  background: linear-gradient(45deg, #72b66b(4, 159, 187) 0%, hsl(154, 18%, 16%) 100%);
 }
 
 ul li a {
