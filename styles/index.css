@@ -6,7 +6,7 @@
 }
 
 body {
-  display: flex;
+  display:contents;
   justify-content: center;
   align-items: center;
   background: linear-gradient(#22884b 0, #22884b 50%, #fff 50%, #fff 100%);
@@ -14,7 +14,7 @@ body {
 }
 
 .card {
-  position: relative;
+  position:relative;
   width: 600px;
   height: 380px;
   background: #57a760;
@@ -22,6 +22,7 @@ body {
   overflow: hidden;
   transition: 0.5s all;
   display: flex;
+  display: grid;
 }
 
 .card:hover {
