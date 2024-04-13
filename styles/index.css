@@ -2,51 +2,42 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  list-style: none;
 }
 
 body {
-  display:contents;
-  justify-content: center;
-  align-items: center;
-  background: linear-gradient(#22884b 0, #22884b 50%, #fff 50%, #fff 100%);
-  min-height: 100vh;
+  background: #1d202b;
+  color: #fff;
+  font-family: Helvetica, sans-serif;
+}
+.contenedor{
+  width: 90%;
+  max-width: 12000px;
+  margin: auto;
+  padding: 40px 0;
+  display: flex;
+  gap: 20px;
+
+}
+.titulo {}
+
+.contenedorRecursosrenovables{
+  width: 70%;
 }
 
 .card {
-  position:relative;
-  width: 600px;
-  height: 380px;
-  background: #57a760;
-  box-shadow: 0 15px 45px rgba(0, 0, 0, 0.1);
-  overflow: hidden;
-  transition: 0.5s all;
-  display: flex;
-  display: grid;
-}
-
-.card:hover {
-  width: 900px;
-  
-}
-.details .card:hover{
-  display: block;
-}
-
-.image-container {
-  position: relative;
-  min-width: 300px;
-  height: 100%;
-  overflow: hidden;
-}
-
-.image-container img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-}
-
-.details {
+  border-radius: 10px;
+  min-height: 200px;
+  font-weight: bold;
   padding: 20px;
-  display: none;
+  position: relative;
+  overflow: hidden;
+  background-size: cover;
+  background-position: center center ;
 }
+
+.card .textos{
+  height: 100%;
+
+
+}
+
