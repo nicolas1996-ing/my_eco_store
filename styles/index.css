@@ -4,17 +4,77 @@
   box-sizing: border-box;
 }
 
-h1 {
-  font-size: 2rem;
-  color: #9a3e3e;
-  margin-bottom: 1rem;
+.body {
+  background: #197e05;
+  color: #030000;
+  font-family: Helvetica, sans-serif;
+  min-height: 100vh;
 }
 
-.h1_date {
-  font-size: 3rem;
-  color: green;
+
+
+.Contenedor{
+  width: 70%;
+  max-width: 1200px;
+  margin: auto;
+  padding: 40px 0;
+  display: flex;
+  gap: 20px;
+
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 20px;
+  
 }
 
-.h1_title {
-  color: #2ac2a6;
+
+.ContenedorRecursosrenovables{
+  
+  display: grid;
+  grid-template-columns: repeat(2, 2fr);
+  gap: 20px;
+}
+
+.Card {
+  border-radius: 10px;
+  min-height: 280px;
+  font-weight: bold;
+  padding: 20px;
+  position: relative;
+  overflow: hidden;
+  background-size: cover;
+  background-position: center center;
+}
+
+.Card .Textos{
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.banner{
+  border-radius: 10px;
+  text-align: center;
+  padding: 20px;
+  background-size: cover;
+  background-position: center center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  
+  background-image: url(../Imagenes/banner_home.jpg);
+
+}
+.banner .logoBanner{
+  height: 100px;
+  width: auto;
+}
+button{
+  position: relative;
+  padding: 0px 0px;
+  border-radius: 10px;
+  outline: none;
+  height: 50px;
+  transition: .5s;
+  background-color: #75ca7c;
 }
