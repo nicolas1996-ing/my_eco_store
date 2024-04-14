@@ -85,8 +85,12 @@ body {
   flex-direction: column;
   justify-content: space-between;
   
+  
   background-image: url(../Imagenes/banner_home.jpg);
 
+}
+.banner:hover{
+  box-shadow: 0px 40px 60px rgba(0, 0, 0, 0.7);
 }
 .banner .logoBanner{
   height: 130px;
@@ -101,4 +105,14 @@ body {
   outline: none;
   height: 50px;
   background-color: #75ca7c;
+  font-family: Helvetica;
+}
+.banner button:hover{
+  background-color: #077840;
+  ;
+}
+.banner .bienvenidos{
+  background-color: white;
+  font-family: Helvetica;
+
 }
