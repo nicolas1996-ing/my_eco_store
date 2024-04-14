@@ -24,12 +24,7 @@ img{
     list-style: none;
     display: flex;
     justify-content: space-between;
-    font-size: 18px;
-    text-decoration: none;
-    color: #BBBBBB;
-    margin-bottom: 15px;
-    transition: all .3s ease;
-
+   
 }
 
 .links ul li a{
@@ -37,8 +32,10 @@ img{
     text-decoration: none;
     color: #FFFFFF;
     display: block;
-    margin-bottom: 15px;
+    margin-bottom: 10px;
+    margin-top: 10px;
     transition: all .3s ease;
+    padding: 10px;
 }
 
 .cart{
@@ -48,6 +45,10 @@ img{
 .carrito{
     color: #FFFFFF;
     transition: all .5s ease;
+    margin-bottom: 10px;
+    margin-top: 20px;
+    padding: 10px;
+
 }
 
 .carrito a:hover{
