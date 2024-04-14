@@ -14,16 +14,16 @@
 
 
 .Contenedor{
-  width: 78%;
-  max-width: 12000px;
+  width: 70%;
+  max-width: 1200px;
   margin: auto;
   padding: 40px 0;
   display: flex;
-  gap: 25px;
+  gap: 20px;
 
   display: grid;
-  grid-template-columns: 5fr 1fr;
-  gap: 40px;
+  grid-template-columns: 2fr 1fr;
+  gap: 20px;
   
 }
 
@@ -51,4 +51,30 @@
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+}
+.banner{
+  border-radius: 10px;
+  text-align: center;
+  padding: 20px;
+  background-size: cover;
+  background-position: center center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  
+  background-image: url(../Imagenes/banner_home.jpg);
+
+}
+.banner .logoBanner{
+  height: 100px;
+  width: auto;
+}
+button{
+  position: relative;
+  padding: 0px 0px;
+  border-radius: 10px;
+  outline: none;
+  height: 50px;
+  transition: .5s;
+  background-color: #75ca7c;
 }
