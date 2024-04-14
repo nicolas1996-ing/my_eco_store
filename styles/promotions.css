@@ -35,7 +35,7 @@ ul li a {
     border-radius: 15px;
     display: flex;
     flex-direction: column;
-    background: linear-gradient(45deg, rgb(4, 159, 187) 0%, rgb(80, 246, 255) 100%);
+    background-image:url(https://i0.wp.com/lopezdoriga.com/wp-content/uploads/2018/01/Paneles-solares.jpg?ssl=1);
     position: relative;
   }
   
@@ -151,4 +151,7 @@ ul li a {
   }
 
 
-  
+  .container_targets{
+    display: flex;
+    gap: 5px;
+  }
