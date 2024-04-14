@@ -32,7 +32,7 @@ ul li a {
   
   .card .top-section {
     height: 150px;
-    border-radius: 15px;
+    border-radius: 20px;
     display: flex;
     flex-direction: column;
     background: linear-gradient(45deg, rgb(4, 159, 187) 0%, rgb(80, 246, 255) 100%);
