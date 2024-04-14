@@ -1,3 +1,60 @@
 *{
+    margin: 0;
+    padding: 0;
     
+}
+
+
+img{
+    width: 150px;
+}
+
+.alto{
+    display: flex;
+    justify-content:space-between
+    
+}
+
+.links{
+    background: linear-gradient(to right, #72b66b, #0A280F);
+
+}
+
+.links ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    font-size: 18px;
+    text-decoration: none;
+    color: #BBBBBB;
+    margin-bottom: 15px;
+    transition: all .3s ease;
+
+}
+
+.links ul li a{
+    font-size: 18px;
+    text-decoration: none;
+    color: #FFFFFF;
+    display: block;
+    margin-bottom: 15px;
+    transition: all .3s ease;
+}
+
+.cart{
+    display: flex;
+}
+
+.carrito{
+    color: #FFFFFF;
+    transition: all .5s ease;
+}
+
+.carrito a:hover{
+    background-color: #BBBBBB;
+
+}
+
+hr{
+
 }
