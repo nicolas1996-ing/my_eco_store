@@ -73,7 +73,7 @@ body {
   background-color: rgba(93, 115, 106, 0.452);
   color: #ffffff;
   position: relative;
-  top: -200px; left: -40px;
+  top: -50px; left: -40px;
   padding: 36px;
   height: 100%;
 }
@@ -115,7 +115,7 @@ top: 233px;  left: -227px;
   height: 300px;
   padding: 0px 0px;
   position: relative;
-  top: -200px; right: -30px;
+  top: -50px; right: -30px;
 }
 .texto{
   color: #ffffff;
