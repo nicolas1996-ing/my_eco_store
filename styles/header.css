@@ -1,23 +1,23 @@
 *{
     margin: 0;
     padding: 0;
-    
+    border: 0;
 }
 
 
-img{
+#logo{
     width: 150px;
+    
 }
 
 .alto{
     display: flex;
-    justify-content:space-between
-    
+    justify-content:space-between;
 }
 
 .links{
     background: linear-gradient(to right, #72b66b, #0A280F);
-
+    border: 2px solid rgb(39, 180, 11);
 }
 
 .links ul{
@@ -46,16 +46,12 @@ img{
     color: #FFFFFF;
     transition: all .5s ease;
     margin-bottom: 10px;
-    margin-top: 20px;
+    margin-top: 10px;
     padding: 10px;
 
 }
 
 .carrito a:hover{
     background-color: #BBBBBB;
-
-}
-
-hr{
 
 }

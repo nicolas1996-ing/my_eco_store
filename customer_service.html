@@ -4,53 +4,53 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="styles/customer_service.css" />
+    <link rel="stylesheet" href="styles/customer_service.css"/>
   </head>
   <body>
     <div class="informacion">
       <div class="card__main">
-        <div class="card" id="oficina">
-          <img src="" alt="">
-          <span>nuestra oficina</span>
-          <span>nuestra oficina</span>
-          <span>nuestra oficina</span>
-          <span>nuestra oficina</span>
-          <span>nuestra oficina</span>
-          <span>nuestra oficina</span>
+        <div class="card">
+          <img id="img" src="./Imagenes/icono_mapa.png" alt="">
+          <p id="txt">Nuestra Oficina</p>
+          <p id="no">Cra6 No.24-56 Pereira</p,1>
+          
         </div>
-        <div class="card" id="oficinaname">Nuestra Oficina Principal</div>
-        <div class="card" id="telefono">Numero De Telefono</div>
-        <div class="card" id="telefononum">Numero De Telefono</div>
-        <div class="card" id="fax">Fax</div>
-        <div class="card" id="faxnum">xxxxxxx</div>
-        <div class="card" id="correo">
-          <span>Correo electronico</span>
-          <a href="#">myecostore.com/chatendivnea</a>
-        </div>
-      </div>
+        <div class="card" id="telefono">
+          <img id="img" src="./Imagenes/Icono_telefono.png" alt="">
+          <p id="txt">Numero de Telefono</p>
+          <p id="no">xxxxxxxxx</p>
 
-      <form>
-        <input
-          type="text"
-          name="username"
-          placeholder="Escribe tu Nombre"
-          required
-        />
-        <input
-          type="email"
-          name="email"
-          placeholder="Escribe tu Email"
-          required
-        />
-        <input
-          type="text"
-          name="data"
-          placeholder="Escribe su Mensage"
-          required
-        />
-        <input type="checkbox" name="boton" required />
-        <input type="submit" name="submit" />
-      </form>
+        </div>
+        <div class="card">
+          <img id="img" src="./Imagenes/Icono_Fax.png" alt="">
+          <p id="txt">Fax</p>
+          <p id="no">xxxxxxxxx</p>
+
+        </div>
+          <div class="card">
+            <img id="img" src="./Imagenes/Icono_correo.png" alt="correo Electronico">
+            <p id="txt">Correo Electronico</p>
+            <a id="url" href="#">myecostore.com/chatendivnea</a>
+          </div>
+      </div>
+    </div>
+    <form class="formulario">
+      <p>Nombre</p>
+        <input class="formulario_input" type="text" name="username" placeholder="Escribe tu Nombre"required/>
+      <p>Gmail</p>
+        <input class="formulario_input" type="email" name="email"placeholder="Escribe tu Email"required/>
+        <p>Mensage</p>
+        <input class="formulario_input  formulario_text" type="text" name="data" placeholder="Escribe su Mensage" required/>
+        <P class="formulario_terminos">Asepta los Terminos y Condicione?</P>
+        <input class="formulario_input  formulario_checkbox" type="checkbox" name="boton" required />
+        <input class="formulario_input  formulario_submit" type="submit" name="submit" />
+    </form>
+    <div class="texto_main">
+      <div class="texto">
+        <p class="texto">Ponerse en contacto</p>
+        <p class="texto">¡Gracias por visitarnos! Estamos aquí para ayudarte en lo que necesites. Si tienes alguna pregunta, consulta o simplemente quieres compartir tus comentarios, no dudes en ponerte en contacto con nosotros.</p>
+        <p class="texto">Chat en línea: myecostore.com/chatenlinea Estamos disponibles de 8:00Am A 6:00 Pm de lunes a viernes, para brindarte la asistencia que necesitas. ¡Esperamos saber de ti pronto!</p>
+      </div>
     </div>
   </body>
 </html>
