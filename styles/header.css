@@ -12,7 +12,7 @@
 
 .alto{
     display: flex;
-    justify-content:space-between;
+
 }
 
 .links{
@@ -45,8 +45,6 @@
 .carrito{
     color: #FFFFFF;
     transition: all .5s ease;
-    margin-bottom: 10px;
-    margin-top: 10px;
     padding: 10px;
 
 }
@@ -54,4 +52,69 @@
 .carrito a:hover{
     background-color: #BBBBBB;
 
+}
+
+input{
+    background-color: #BBBBBB;
+    padding: 14px;
+    outline: none;
+    border: 2px solid #FFFFFF;
+    font-size: 17px;
+    margin-bottom: 15px;
+    margin-top: 10px;
+    color: #FFFFFF;
+}
+
+::placeholder{
+    color: #FFFFFF;
+
+}
+
+.carrito a{
+    display: inline-block;
+    min-height: 40px;
+    width: 40px;
+    background-color: rgba(255, 255, 255, 0.2);
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+    color: #FFFFFF;
+    transition: all .5s ease;
+
+}
+
+.buscador{
+    display: flex;
+    margin-inline-start: 700px;
+
+}
+
+.carrito2{
+    color: #FFFFFF;
+    transition: all .5s ease;
+    padding: 10px;
+
+}
+
+.carrito2 a:hover{
+    background-color: #BBBBBB;
+
+}
+
+.carrito2 a{
+    display: inline-block;
+    min-height: 40px;
+    width: 40px;
+    margin-top: 5px;
+    background-color: rgba(255, 255, 255, 0.2);
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+    color: #FFFFFF;
+    transition: all .5s ease;
+
+}
+
+.style{
+    image
 }
