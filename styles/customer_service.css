@@ -1,0 +1,126 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background: #f3f3f3;
+  max-width: 1200px;
+  margin: 0 auto;
+  margin-bottom: 120px;
+}
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-image: url(../Imagenes/imagen_lista.png);
+  background-repeat: no-repeat;
+  background-position-x: center;
+  background-size: cover;
+}
+.card__main {
+  display: flex;
+  /* flex-direction: column; */
+  gap: 30px;
+  justify-content: center;
+}
+
+.card {
+  background-image: url(../imgs/transparencia.png);
+  width: 200px;
+  height: 200px;
+  background-color: rgba(93, 115, 106, 0.452);
+  border-radius: 15%;
+}
+
+.list__main {
+  margin: 10px;
+}
+.card #img {
+  position: relative;
+  width: 40%;
+  right: 0%;
+  left: 30%;
+}
+.card #txt{
+  color: #f3f3f3;
+  position: relative;
+  text-align: center;
+}
+.card #no {
+  color: #f3f3f3;
+  position: relative;
+  text-align: center;
+  top: 20px; left: px;
+}
+.card a{
+  color: #f9f2f2;
+  position: relative;
+  
+  top: 28px;
+  font-size: 13px;
+}
+/*datos del formulario*/
+
+
+.formulario {
+  display: flexbox;
+  background-image: url(../imgs/transparencia.png);
+  background-color: rgba(93, 115, 106, 0.452);
+  color: #ffffff;
+  position: relative;
+  top: -50px; left: -40px;
+  padding: 36px;
+  height: 100%;
+}
+.formulario_input {
+
+padding: 10px 300px 10px 0px;
+width: 100%;
+
+}
+.formulario_text {
+  color: #000000;
+padding: 20px 0px;
+}
+.formulario_terminos {
+position: relative;
+top: 3px;left: 16px;
+}
+.formulario_checkbox{
+position: absolute;
+top: 233px;  left: -227px;
+}
+.formulario_submit {
+  background-color: rgba(34, 136, 75, 0.7);
+  text-align: center;
+  text-transform: uppercase;
+  padding: 0px  100px ;
+}
+
+
+
+
+/* texto */
+
+.texto_main{
+  background-image: url(../imgs/transparencia.png);
+  background-color: rgba(93, 115, 106, 0.452);
+  opacity: 1;
+  width: 500px;
+  height: 300px;
+  padding: 0px 0px;
+  position: relative;
+  top: -50px; right: -30px;
+}
+.texto{
+  color: #ffffff;
+  width: 100%;
+  height: 59%;
+  padding: 10px;
+  text-align: center;
+}

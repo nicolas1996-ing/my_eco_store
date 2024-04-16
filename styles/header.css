@@ -1,3 +1,120 @@
 *{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+
+#logo{
+    width: 150px;
     
+}
+
+.alto{
+    display: flex;
+
+}
+
+.links{
+    background: linear-gradient(to right, #72b66b, #0A280F);
+    border: 2px solid rgb(39, 180, 11);
+}
+
+.links ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+   
+}
+
+.links ul li a{
+    font-size: 18px;
+    text-decoration: none;
+    color: #FFFFFF;
+    display: block;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    transition: all .3s ease;
+    padding: 10px;
+}
+
+.cart{
+    display: flex;
+}
+
+.carrito{
+    color: #FFFFFF;
+    transition: all .5s ease;
+    padding: 10px;
+
+}
+
+.carrito a:hover{
+    background-color: #BBBBBB;
+
+}
+
+input{
+    background-color: #BBBBBB;
+    padding: 14px;
+    outline: none;
+    border: 2px solid #FFFFFF;
+    font-size: 17px;
+    margin-bottom: 15px;
+    margin-top: 10px;
+    color: #FFFFFF;
+}
+
+::placeholder{
+    color: #FFFFFF;
+
+}
+
+.carrito a{
+    display: inline-block;
+    min-height: 40px;
+    width: 40px;
+    background-color: rgba(255, 255, 255, 0.2);
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+    color: #FFFFFF;
+    transition: all .5s ease;
+
+}
+
+.buscador{
+    display: flex;
+    margin-inline-start: 700px;
+
+}
+
+.carrito2{
+    color: #FFFFFF;
+    transition: all .5s ease;
+    padding: 10px;
+
+}
+
+.carrito2 a:hover{
+    background-color: #BBBBBB;
+
+}
+
+.carrito2 a{
+    display: inline-block;
+    min-height: 40px;
+    width: 40px;
+    margin-top: 5px;
+    background-color: rgba(255, 255, 255, 0.2);
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+    color: #FFFFFF;
+    transition: all .5s ease;
+
+}
+
+.style{
+    image
 }
