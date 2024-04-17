@@ -30,6 +30,11 @@ body {
 }
 
 .card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
   background-image: url(../imgs/transparencia.png);
   width: 200px;
   height: 200px;
@@ -41,12 +46,9 @@ body {
   margin: 10px;
 }
 .card #img {
-  position: relative;
   width: 40%;
-  right: 0%;
-  left: 30%;
 }
-.card #txt{
+.card #txt {
   color: #f3f3f3;
   position: relative;
   text-align: center;
@@ -55,17 +57,17 @@ body {
   color: #f3f3f3;
   position: relative;
   text-align: center;
-  top: 20px; left: px;
+  top: 20px;
+  left: px;
 }
-.card a{
+.card a {
   color: #f9f2f2;
   position: relative;
-  
+
   top: 28px;
   font-size: 13px;
 }
 /*datos del formulario*/
-
 
 .formulario {
   display: flexbox;
@@ -73,41 +75,39 @@ body {
   background-color: rgba(93, 115, 106, 0.452);
   color: #ffffff;
   position: relative;
-  top: -50px; left: -40px;
+  top: -50px;
+  left: -40px;
   padding: 36px;
   height: 100%;
 }
 .formulario_input {
-
-padding: 10px 300px 10px 0px;
-width: 100%;
-
+  padding: 10px 300px 10px 0px;
+  width: 100%;
 }
 .formulario_text {
   color: #000000;
-padding: 20px 0px;
+  padding: 20px 0px;
 }
 .formulario_terminos {
-position: relative;
-top: 3px;left: 16px;
+  position: relative;
+  top: 3px;
+  left: 16px;
 }
-.formulario_checkbox{
-position: absolute;
-top: 233px;  left: -227px;
+.formulario_checkbox {
+  position: absolute;
+  top: 233px;
+  left: -227px;
 }
 .formulario_submit {
   background-color: rgba(34, 136, 75, 0.7);
   text-align: center;
   text-transform: uppercase;
-  padding: 0px  100px ;
+  padding: 0px 100px;
 }
-
-
-
 
 /* texto */
 
-.texto_main{
+.texto_main {
   background-image: url(../imgs/transparencia.png);
   background-color: rgba(93, 115, 106, 0.452);
   opacity: 1;
@@ -115,9 +115,10 @@ top: 233px;  left: -227px;
   height: 300px;
   padding: 0px 0px;
   position: relative;
-  top: -50px; right: -30px;
+  top: -50px;
+  right: -30px;
 }
-.texto{
+.texto {
   color: #ffffff;
   width: 100%;
   height: 59%;
