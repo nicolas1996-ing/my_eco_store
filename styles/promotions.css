@@ -1,37 +1,39 @@
-#header{
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#header {
   margin: left;
-  
-  
   width: 200px;
   font-family: Helvetica;
 }
 
-ul, ol {
+ul,
+ol {
   list-style: none;
- }
+}
 
- .nav li a{
+.nav li a {
   background-color: #077840;
   color: white;
   text-decoration: none;
   padding: 10px 15px;
   display: block;
-  z-index: 10;
+  /* z-index: 10; */
+}
 
- }
-
- .nav li a:hover {
+.nav li a:hover {
   background-color: #72b66b;
+}
 
-
- }
-
- .nav > li {
+.nav > li {
   float: left;
- }
+}
 
- .nav li ul {
-  display:none ;
+.nav li ul {
+  display: none;
   position: absolute;
   min-width: 140px;
 }
@@ -42,175 +44,155 @@ ul, ol {
 
 .nav li ul li ul {
   position: absolute;
-  
 }
 
-
-
-
 .rectangulo {
-  width: 500px; 
-  height: 50px; 
+  width: 100vw;
+  height: 50px;
   margin: left;
-  background:linear-gradient(#72b66b,#077840); 
-  }
-  
-  .texto {
-    display: block;
-    margin: 10px;
-    font-size: 20px;
-    font-weight: helvetica;
-    color: white;
-    text-align: center;
-    letter-spacing: 10px; 
-  }
+  background: linear-gradient(#72b66b, #077840);
+}
 
+.texto {
+  display: block;
+  margin: 10px;
+  font-size: 20px;
+  font-weight: helvetica;
+  color: white;
+  text-align: center;
+  letter-spacing: 10px;
+}
 
-  .texto2 {
-    display: block;
-    margin: 10px;
-    font-size: 20px;
-    font-weight: helvetica;
-    color: white;
-    text-align: center;
-    letter-spacing: 10px; 
-  }
+.texto2 {
+  display: block;
+  margin: 10px;
+  font-size: 20px;
+  font-weight: helvetica;
+  color: white;
+  text-align: center;
+  letter-spacing: 10px;
+}
 
+.titulo {
+  display: block;
+  font-size: 50px;
+  font-weight: helvetica;
+  color: white;
+  text-align: center;
+  letter-spacing: 5px;
+}
 
+.contacto {
+  display: block;
+  font-size: 17px;
+  font-weight: helvetica;
+  color: white;
+  text-align: center;
+  letter-spacing: 5px;
+  padding: 15px;
+}
 
+.nombre {
+  display: block;
+  font-size: 17px;
+  font-weight: helvetica;
+  color: white;
+  text-align: left;
+  letter-spacing: 1px;
+}
 
+.card {
+  width: 230px;
+  border-radius: 20px;
+  background: #72b66b;
+  padding: 20px;
+  overflow: hidden;
+  background: linear-gradient(#72b66b, #077840);
+  box-shadow: (100, 100, 111, 0.2) 0px 4px 20px 0px;
+  transition: transform 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  /* z-index: 0; */
+  margin-top: 45px;
+  place-self: center;
 
-  .titulo {
-    display: block;
-    font-size: 50px;
-    font-weight: helvetica;
-    color: white;
-    text-align: center;
-    letter-spacing: 5px; 
-  }
+}
 
-  .contacto{
-    display: block;
-    font-size: 17px;
-    font-weight: helvetica;
-    color: white;
-    text-align: center;
-    letter-spacing: 5px;
-    padding: 15px ;
-  }
-
-  .nombre{
-    display: block;
-    font-size: 17px;
-    font-weight: helvetica;
-    color: white;
-    text-align: left;
-    letter-spacing: 1px;
-  }
-
-  .card {
-    width: 230px;
-    border-radius: 20px;
-    background:#72b66b;
-    padding: 20px;
-    overflow: hidden;
-    background:linear-gradient(#72b66b,#077840);
-    box-shadow: (100, 100, 111, 0.2) 0px 4px 20px 0px;
-    transition: transform 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
-    
-  }
-
-  .card:hover { 
-    transform: scale(1.05); /*para agrandar la tarjeta al seleccionar*/
-  }
+.card:hover {
+  transform: scale(1.05); /*para agrandar la tarjeta al seleccionar*/
+}
 
 /* primera tarjeta  */
-  
+
 .card .top-section1 {
-    height: 150px;
-    border-radius: 15px;
-    display: flex;
-    flex-direction: column;
-    background-image:url(/fotospromociones/EnergiaRenovable.jpg);
-    background-size: 300px 200px;
-    position: center;
-    z-index: 0;
-    
-  }
-
-  .card .bottom-section1 {
-    margin-top: 15px; /*margen de la card */
-    padding: 10px 10px;
-  }
-  
-  .card .bottom-section1 .title {
-    display: block;
-    color: white;
-    z-index: 1;
-    
-    
-  }
-  
-  .card .bottom-section1 .row {
-    display: flex; /*cambia tamaño de la tarjeta */
-    margin-top: 15px;
-   
-  }
-  
-  .card .bottom-section1 .item {
-   
-    flex: 50%;
-    padding: 10px;
-    
-  }
-
-
-  /*segunda tarjeta*/
-
-
-  .card .top-section2 {
-    height: 150px;
-    border-radius: 15px;
-    display: flex;
-    flex-direction: column;
-    background-image:url(/fotospromociones/verduras.jpg);
-    background-size: 300px 200px;
-    position: center;
-  }
-
-  .card .bottom-section2 {
-    margin-top: 15px; /*margen de la card */
-    padding: 10px 10px;
-  }
-  
-  .card .bottom-section2 .title {
-    display: block;
-    color: white;
-    
-  }
-  
-  .card .bottom-section2 .row {
-    display: flex; /*cambia tamaño de la tarjeta */
-    margin-top: 15px;
-  }
-  
-  .card .bottom-section2 .item {
-   
-    flex: 50%;
-    padding: 10px;
-    
-  }
-
-
- /*tercera tarjeta*/
-
-
- .card .top-section3 {
   height: 150px;
   border-radius: 15px;
   display: flex;
   flex-direction: column;
-  background-image:url(/fotospromociones/reciclaje.jpg);
+  background-image: url(/fotospromociones/EnergiaRenovable.jpg);
+  background-size: 300px 200px;
+  position: center;
+}
+
+.card .bottom-section1 {
+  margin-top: 15px; /*margen de la card */
+  padding: 10px 10px;
+}
+
+.card .bottom-section1 .title {
+  display: block;
+  color: white;
+  /* z-index: 1; */
+}
+
+.card .bottom-section1 .row {
+  display: flex; /*cambia tamaño de la tarjeta */
+  margin-top: 15px;
+}
+
+.card .bottom-section1 .item {
+  flex: 50%;
+  padding: 10px;
+}
+
+/*segunda tarjeta*/
+
+.card .top-section2 {
+  height: 150px;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  background-image: url(/fotospromociones/verduras.jpg);
+  background-size: 300px 200px;
+  position: center;
+}
+
+.card .bottom-section2 {
+  margin-top: 15px; /*margen de la card */
+  padding: 10px 10px;
+}
+
+.card .bottom-section2 .title {
+  display: block;
+  color: white;
+}
+
+.card .bottom-section2 .row {
+  display: flex; /*cambia tamaño de la tarjeta */
+  margin-top: 15px;
+}
+
+.card .bottom-section2 .item {
+  flex: 50%;
+  padding: 10px;
+}
+
+/*tercera tarjeta*/
+
+.card .top-section3 {
+  height: 150px;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  background-image: url(/fotospromociones/reciclaje.jpg);
   background-size: 300px 200px;
   position: center;
 }
@@ -223,7 +205,6 @@ ul, ol {
 .card .bottom-section3 .title {
   display: block;
   color: white;
-  
 }
 
 .card .bottom-section3 .row {
@@ -232,22 +213,18 @@ ul, ol {
 }
 
 .card .bottom-section3 .item {
- 
   flex: 50%;
   padding: 10px;
-  
 }
 
-
 /*cuarta tarjeta*/
-
 
 .card .top-section4 {
   height: 150px;
   border-radius: 15px;
   display: flex;
   flex-direction: column;
-  background-image:url(/fotospromociones/parque.jpg);
+  background-image: url(/fotospromociones/parque.jpg);
   background-size: 300px 200px;
   position: center;
 }
@@ -260,7 +237,6 @@ ul, ol {
 .card .bottom-section4 .title {
   display: block;
   color: white;
-  
 }
 
 .card .bottom-section4 .row {
@@ -269,21 +245,18 @@ ul, ol {
 }
 
 .card .bottom-section4 .item {
- 
   flex: 50%;
   padding: 10px;
-  
 }
 
 /* quinta tarjeta*/
-
 
 .card .top-section5 {
   height: 150px;
   border-radius: 15px;
   display: flex;
   flex-direction: column;
-  background-image:url(/fotospromociones/bombillo.jpg);
+  background-image: url(/fotospromociones/bombillo.jpg);
   background-size: 300px 200px;
   position: center;
 }
@@ -296,7 +269,6 @@ ul, ol {
 .card .bottom-section5 .title {
   display: block;
   color: white;
-  
 }
 
 .card .bottom-section5 .row {
@@ -305,21 +277,18 @@ ul, ol {
 }
 
 .card .bottom-section5 .item {
- 
   flex: 50%;
   padding: 10px;
-  
 }
 
 /* sexta tarjeta*/
-
 
 .card .top-section6 {
   height: 150px;
   border-radius: 15px;
   display: flex;
   flex-direction: column;
-  background-image:url(/fotospromociones/senderismo.jpg);
+  background-image: url(/fotospromociones/senderismo.jpg);
   background-size: 300px 200px;
   position: center;
 }
@@ -332,7 +301,6 @@ ul, ol {
 .card .bottom-section6 .title {
   display: block;
   color: white;
-  
 }
 
 .card .bottom-section6 .row {
@@ -341,10 +309,8 @@ ul, ol {
 }
 
 .card .bottom-section6 .item {
- 
   flex: 50%;
   padding: 10px;
-  
 }
 
 /* septima tarjeta  */
@@ -355,7 +321,7 @@ ul, ol {
   font-weight: helvetica;
   color: red;
   text-align: left;
-  letter-spacing: 5px; 
+  letter-spacing: 5px;
 }
 
 .precio2 {
@@ -364,15 +330,15 @@ ul, ol {
   font-weight: helvetica;
   color: white;
   text-align: left;
-  letter-spacing: 5px; 
+  letter-spacing: 5px;
 }
-  
+
 .card .top-section7 {
   height: 150px;
   border-radius: 15px;
   display: flex;
   flex-direction: column;
-  background-image:url(/fotospromociones/Panel\ Solar.webp);
+  background-image: url(/fotospromociones/Panel\ Solar.webp);
   background-size: 250px 150px;
   background-repeat: no-repeat;
   position: center;
@@ -386,7 +352,6 @@ ul, ol {
 .card .bottom-section7 .title {
   display: block;
   color: white;
-  
 }
 
 .card .bottom-section7 .row {
@@ -395,12 +360,9 @@ ul, ol {
 }
 
 .card .bottom-section7 .item {
- 
   flex: 50%;
   padding: 10px;
-  
 }
-
 
 /*octava tarjeta*/
 
@@ -410,7 +372,7 @@ ul, ol {
   font-weight: helvetica;
   color: red;
   text-align: left;
-  letter-spacing: 5px; 
+  letter-spacing: 5px;
 }
 
 .precio4 {
@@ -419,16 +381,15 @@ ul, ol {
   font-weight: helvetica;
   color: white;
   text-align: left;
-  letter-spacing: 5px; 
+  letter-spacing: 5px;
 }
-
 
 .card .top-section8 {
   height: 150px;
   border-radius: 15px;
   display: flex;
   flex-direction: column;
-  background-image:url(/fotospromociones/semillas.webp);
+  background-image: url(/fotospromociones/semillas.webp);
   background-size: 200px 150px;
   position: center;
 }
@@ -441,7 +402,6 @@ ul, ol {
 .card .bottom-section8 .title {
   display: block;
   color: white;
-  
 }
 
 .card .bottom-section8 .row {
@@ -450,12 +410,9 @@ ul, ol {
 }
 
 .card .bottom-section8 .item {
- 
   flex: 50%;
   padding: 10px;
-  
 }
-
 
 /*novena tarjeta*/
 
@@ -465,7 +422,7 @@ ul, ol {
   font-weight: helvetica;
   color: red;
   text-align: left;
-  letter-spacing: 5px; 
+  letter-spacing: 5px;
 }
 
 .precio6 {
@@ -474,91 +431,80 @@ ul, ol {
   font-weight: helvetica;
   color: white;
   text-align: left;
-  letter-spacing: 5px; 
+  letter-spacing: 5px;
 }
 
-
 .card .top-section9 {
-height: 150px;
-border-radius: 15px;
-display: flex;
-flex-direction: column;
-background-image:url(/fotospromociones/estibas.png);
-background-size: 250px 150px;
-position: center;
+  height: 150px;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  background-image: url(/fotospromociones/estibas.png);
+  background-size: 250px 150px;
+  position: center;
 }
 
 .card .bottom-section9 {
-margin-top: 15px; /*margen de la card */
-padding: 10px 10px;
+  margin-top: 15px; /*margen de la card */
+  padding: 10px 10px;
 }
 
 .card .bottom-section9 .title {
-display: block;
-color: white;
-
+  display: block;
+  color: white;
 }
 
 .card .bottom-section9 .row {
-display: flex; /*cambia tamaño de la tarjeta */
-margin-top: 15px;
+  display: flex; /*cambia tamaño de la tarjeta */
+  margin-top: 15px;
 }
 
 .card .bottom-section9 .item {
-
-flex: 50%;
-padding: 10px;
-
+  flex: 50%;
+  padding: 10px;
 }
 
-
-
-
 /* general*/
-  .item .svg :hover {
-    fill: white;
-    transform: scale(0.90);
-  }
+.item .svg :hover {
+  fill: white;
+  transform: scale(0.9);
+}
 
-  .card  .border {
-    border-bottom-right-radius: 10px;
-    height: 30px;
-    width: 130px;
-    background: #72b66b;
-    position: absolute;
-    transform: skew(-40deg);
-    box-shadow: -10px -10px 0 0 #077840;
-  } 
+.card .border {
+  border-bottom-right-radius: 10px;
+  height: 30px;
+  width: 130px;
+  background: #72b66b;
+  position: absolute;
+  transform: skew(-40deg);
+  box-shadow: -10px -10px 0 0 #077840;
+}
 
-.card  .cabezera .logo {
-    height: 100%; /* margen de logo */
-    display: block;
-    padding: 10px 10px 10px 10px;
-    position: relative;
-  }
-  
-  .card .logo .cabezera .logo .top-section {
-    height: 100%;
-    
-  }
-  
-  .card .logo .cabezera .nombre {
-    height: 100%; /*nombres*/
-    padding: 1px 1px;
-    display: block;
-    gap: 5px;
-    
-  }
-  
-  
-  .container_targets {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 30px;
-    margin: 5px;
-    background-image: url("/fotospromociones/arboles-e1569184563522.jpg");
-    background-size: cover;
-    background-position: center;
-    background-attachment: fixed;
-    z-index: 2;
-  }
+.card .cabezera .logo {
+  height: 100%; /* margen de logo */
+  display: block;
+  padding: 10px 10px 10px 10px;
+  position: relative;
+}
+
+.card .logo .cabezera .logo .top-section {
+  height: 100%;
+}
+
+.card .logo .cabezera .nombre {
+  height: 100%; /*nombres*/
+  padding: 1px 1px;
+  display: block;
+  gap: 5px;
+}
+
+.container_targets {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+  background-image: url("/fotospromociones/arboles-e1569184563522.jpg");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  /* z-index: 2; */
+}
