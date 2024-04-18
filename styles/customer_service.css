@@ -4,7 +4,7 @@
   box-sizing: border-box;
 }
 
-body {
+main {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
@@ -15,7 +15,7 @@ body {
   margin: 0 auto;
   margin-bottom: 120px;
 }
-body {
+main, body {
   font-family: Arial, Helvetica, sans-serif;
   background-image: url(../Imagenes/imagen_lista.png);
   background-repeat: no-repeat;
