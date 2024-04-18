@@ -71,7 +71,7 @@ img {
 
 .card {
     position: relative;
-    width: 300px;
+    width: 350px;
     height: 350px;
     margin: 20px;
     top: 80px;
@@ -152,7 +152,7 @@ img {
 }
 
 
- /*Estilos Productos*/
+ /*Estilos Productos::::::::::::::::::::::::::::::*/
  .container-title {
     padding: 30px 30px 30px 0;
     color: #222;
@@ -168,11 +168,14 @@ img {
 
  article {
     display: flex;
-    gap: 30px;
+    gap: 20px;
+    width: 80%; /*Modificado */
+    height: 80%; /*Modificado */
     margin-bottom: 10px;
     background-color: #ffffff;
     margin-top: 80px;
     box-shadow: 0 5px 10px #202020;
+    
     
  }
 
@@ -366,7 +369,7 @@ img {
 .text-description,
 .text-additional-information,
 .text-reviews{
-    font-size: 13px;
+    font-size: 16px;
     color: #252525;
     line-height: 22px;
     margin-top: 25px;
