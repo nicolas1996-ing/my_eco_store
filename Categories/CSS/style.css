@@ -18,6 +18,8 @@ main {
     
 }
 
+
+
 body::before {
     content: '';
     position: absolute;
@@ -30,6 +32,7 @@ body::before {
     background-position:center;
     opacity: 0.2; /* Opacidad del 20% */
     z-index: -1; /* Para asegurarse de que esté detrás del contenido */
+    
 }
 
 /*
