@@ -127,7 +127,7 @@ ol {
   border-radius: 15px;
   display: flex;
   flex-direction: column;
-  background-image: url(/fotospromociones/EnergiaRenovable.jpg);
+  background-image: url(../fotospromociones/EnergiaRenovable.jpg);
   background-size: 300px 200px;
   position: center;
 }
@@ -160,7 +160,7 @@ ol {
   border-radius: 15px;
   display: flex;
   flex-direction: column;
-  background-image: url(/fotospromociones/verduras.jpg);
+  background-image: url(../fotospromociones/verduras.jpg);
   background-size: 300px 200px;
   position: center;
 }
@@ -192,7 +192,7 @@ ol {
   border-radius: 15px;
   display: flex;
   flex-direction: column;
-  background-image: url(/fotospromociones/reciclaje.jpg);
+  background-image: url(../fotospromociones/reciclaje.jpg);
   background-size: 300px 200px;
   position: center;
 }
@@ -224,7 +224,7 @@ ol {
   border-radius: 15px;
   display: flex;
   flex-direction: column;
-  background-image: url(/fotospromociones/parque.jpg);
+  background-image: url(../fotospromociones/parque.jpg);
   background-size: 300px 200px;
   position: center;
 }
@@ -256,7 +256,7 @@ ol {
   border-radius: 15px;
   display: flex;
   flex-direction: column;
-  background-image: url(/fotospromociones/bombillo.jpg);
+  background-image: url(../fotospromociones/bombillo.jpg);
   background-size: 300px 200px;
   position: center;
 }
@@ -288,7 +288,7 @@ ol {
   border-radius: 15px;
   display: flex;
   flex-direction: column;
-  background-image: url(/fotospromociones/senderismo.jpg);
+  background-image: url(../fotospromociones/senderismo.jpg);
   background-size: 300px 200px;
   position: center;
 }
@@ -338,7 +338,7 @@ ol {
   border-radius: 15px;
   display: flex;
   flex-direction: column;
-  background-image: url(/fotospromociones/Panel\ Solar.webp);
+  background-image: url(../fotospromociones/Panel\ Solar.webp);
   background-size: 250px 150px;
   background-repeat: no-repeat;
   position: center;
@@ -389,7 +389,7 @@ ol {
   border-radius: 15px;
   display: flex;
   flex-direction: column;
-  background-image: url(/fotospromociones/semillas.webp);
+  background-image: url(../fotospromociones/semillas.webp);
   background-size: 200px 150px;
   position: center;
 }
@@ -439,7 +439,7 @@ ol {
   border-radius: 15px;
   display: flex;
   flex-direction: column;
-  background-image: url(/fotospromociones/estibas.png);
+  background-image: url(../fotospromociones/estibas.png);
   background-size: 250px 150px;
   position: center;
 }
@@ -502,7 +502,7 @@ ol {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 30px;
-  background-image: url("/fotospromociones/arboles-e1569184563522.jpg");
+  background-image: url("../fotospromociones/arboles-e1569184563522.jpg");
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
