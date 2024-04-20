@@ -1,7 +1,7 @@
 * {
   margin: 0;
   padding: 0;
-  border: 0;
+  box-sizing: border-box;
 }
 
 #logo {
@@ -82,6 +82,11 @@ input {
   display: flex;
   /* margin-inline-start: 700px; */
   justify-content: space-between;
+}
+
+.buscador form input {
+  border: 2px solid green;
+  border-radius: 5px;
 }
 
 .carrito2 {

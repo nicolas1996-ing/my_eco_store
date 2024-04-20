@@ -1,387 +1,341 @@
-body {
-    background-image: url('../imgs/444.jpg'); /* Ruta de la imagen de fondo */
-    background-size: cover; /* Ajusta la imagen al tamaño del cuerpo */
-    background-attachment: fixed; /* Hace que el fondo sea fijo */
-  } 
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
- /* body {
+body {
+  background-image: url("../imgs/444.jpg"); /* Ruta de la imagen de fondo */
+  background-size: cover; /* Ajusta la imagen al tamaño del cuerpo */
+  background-attachment: fixed; /* Hace que el fondo sea fijo */
+}
+
+/* body {
     background-image: url('file:///C:/Users/EQUIPO/Desktop/aca/my_eco_store/imgs/bolas.jpg'); 
     background-size: cover; /* Ajusta la imagen al tamaño del cuerpo 
     background-attachment: fixed; /* Hace que el fondo sea fijo 
   }  */
 
 .wrapper {
-    display: grid;
-    grid-template-columns: repeat(14, 1fr);
-    grid-gap: 10px;
-    grid-auto-rows: minmax(95px, auto);
-    
-  }
+  display: grid;
+  grid-template-columns: repeat(14, 1fr);
+  grid-gap: 10px;
+  grid-auto-rows: minmax(95px, auto);
+  margin-bottom: 100px;
+}
 
- 
+/* card 1 */
 
- /* card 1 */
-  
-    .card {
+.card {
+  background-image: url(../imgs/arboles-e1569184563522.jpg);
+  background-size: cover; /* Ajusta la imagen al tamaño del cuerpo */
 
-    background-image: url(../imgs/arboles-e1569184563522.jpg);
-    background-size: cover; /* Ajusta la imagen al tamaño del cuerpo */
-    
-    transition: all 0.4s;
-    border-radius: 10px;
-    box-shadow: 0px 0px 10px 5px  rgba(0, 0, 0, 0.705);
-    font-size: 30px;
-    font-weight: 900;
-    grid-column: 2/6;
-    grid-row: 3/10;
-    
-  }
-  
-  .card:hover {
+  transition: all 0.4s;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.705);
+  font-size: 30px;
+  font-weight: 900;
+  grid-column: 2/6;
+  grid-row: 3/10;
+}
 
-    border-radius: 15px;
-    cursor: pointer;
-    transform: scale(1.2);
-    box-shadow: 0px 0px 10px 5px  rgba(0, 0, 0, 0.705);
-    background: rgb(11, 122, 21);
+.card:hover {
+  border-radius: 15px;
+  cursor: pointer;
+  transform: scale(1.2);
+  box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.705);
+  background: rgb(11, 122, 21);
+}
 
-  }
-  
-  .first-content {
-    height: 100%;
-    width: 100%;
-    font-size: 25px;
-    transition: all 0.1s;
-    display: flex;
-    justify-content: center;
-    align-items:center; 
-    text-align: center;
-    opacity: 1;
-    border-radius: 15px;
-    background-image: url(../imgs/transparencia.png);
-    background-size: cover;
+.first-content {
+  height: 100%;
+  width: 100%;
+  font-size: 25px;
+  transition: all 0.1s;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  opacity: 1;
+  border-radius: 15px;
+  background-image: url(../imgs/transparencia.png);
+  background-size: cover;
+}
 
+.card:hover .first-content {
+  height: 0px;
+  opacity: 0;
+}
 
-  }
-  
-  .card:hover .first-content {
-    height: 0px;
-    opacity: 0;
+.second-content {
+  height: 10%;
+  width: 100%;
+  text-align: center;
+  opacity: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 15px;
+  transition: all 0.1s;
+  font-size: 0px;
+  transform: rotate(90deg) scale(-1);
+}
 
-  }
-  
-  .second-content {
-    height: 10%;
-    width: 100%;
-    text-align: center;
-    opacity: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 15px;
-    transition: all 0.1s;
-    font-size: 0px;
-    transform: rotate(90deg) scale(-1);
+.card:hover .second-content {
+  opacity: 1;
+  height: 100%;
+  font-size: 28px;
+  transform: rotate(0deg);
+}
 
-  }
-  
-  .card:hover .second-content {
-    opacity: 1;
-    height: 100%;
-    font-size: 28px;
-    transform: rotate(0deg);
+/* card 2 */
 
-  }
+.card2 {
+  background-image: url(../imgs/555.jpg);
+  background-size: cover; /* Ajusta la imagen al tamaño del cuerpo */
 
-    /* card 2 */
+  transition: all 0.4s;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.705);
+  font-size: 30px;
+  font-weight: 900;
+  grid-column: 7/14;
+  grid-row: 3/6;
+}
 
-  .card2 {
+.card2:hover {
+  border-radius: 15px;
+  cursor: pointer;
+  transform: scale(1.2);
+  box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.705);
+  background: rgb(11, 122, 21);
+}
 
+.first2-content {
+  height: 100%;
+  width: 100%;
+  font-size: 20px;
+  transition: all 0.1s;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  opacity: 1;
+  border-radius: 15px;
+  background-image: url(../imgs/transparencia.png);
+  background-size: cover;
+}
 
-    background-image: url(../imgs/555.jpg);
-    background-size: cover; /* Ajusta la imagen al tamaño del cuerpo */
-        
-    transition: all 0.4s;
-    border-radius: 10px;
-    box-shadow: 0px 0px 10px 5px  rgba(0, 0, 0, 0.705);
-    font-size: 30px;
-    font-weight: 900;
-    grid-column: 7/14;
-    grid-row: 3/6;
-    
-  }
-  
-  .card2:hover {
+.card2:hover .first2-content {
+  height: 0px;
+  opacity: 0;
+}
 
-    border-radius: 15px;
-    cursor: pointer;
-    transform: scale(1.2);
-    box-shadow: 0px 0px 10px 5px  rgba(0, 0, 0, 0.705);
-    background: rgb(11, 122, 21);
+.second2-content {
+  height: 0%;
+  width: 100%;
+  text-align: center;
+  opacity: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 15px;
+  transition: all 0.1s;
+  font-size: 0px;
+  transform: rotate(90deg) scale(-1);
+}
 
-  }
-  
-  .first2-content {
-    height: 100%;
-    width: 100%;
-    font-size: 20px;
-    transition: all 0.1s;
-    display: flex;
-    justify-content: center;
-    align-items:center;
-    text-align: center;
-    opacity: 1;
-    border-radius: 15px;
-    background-image: url(../imgs/transparencia.png);
-    background-size: cover;
+.card2:hover .second2-content {
+  opacity: 1;
+  height: 100%;
+  font-size: 25px;
+  transform: rotate(0deg);
+}
 
-  }
-  
-  .card2:hover .first2-content {
-    height: 0px;
-    opacity: 0;
+/* card 3 */
 
-  }
-  
-  .second2-content {
-    height: 0%;
-    width: 100%;
-    text-align: center;
-    opacity: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 15px;
-    transition: all 0.1s;
-    font-size: 0px;
-    transform: rotate(90deg) scale(-1);
+.card3 {
+  background-image: url(../imgs/33333.jpg);
+  background-size: cover; /* Ajusta la imagen al tamaño del cuerpo */
+  transition: all 0.4s;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.705);
+  font-size: 30px;
+  font-weight: 900;
+  grid-column: 7/10;
+  grid-row: 7/10;
+}
 
-  }
-  
-  .card2:hover .second2-content {
-    opacity: 1;
-    height: 100%;
-    font-size: 25px;
-    transform: rotate(0deg);
+.card3:hover {
+  border-radius: 15px;
+  cursor: pointer;
+  transform: scale(1.2);
+  box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.705);
+  background: rgb(11, 122, 21);
+}
 
-  }
+.first3-content {
+  height: 100%;
+  width: 100%;
+  font-size: 24px;
+  transition: all 0.1s;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 1;
+  border-radius: 15px;
+  background-image: url(../imgs/transparencia.png);
+  background-size: cover;
+}
 
-  /* card 3 */
+.card3:hover .first3-content {
+  height: 0px;
+  opacity: 0;
+}
 
-  .card3 {
+.second3-content {
+  height: 0%;
+  width: 100%;
+  opacity: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  border-radius: 15px;
+  transition: all 0.1s;
+  font-size: 0px;
+  transform: rotate(90deg) scale(-1);
+}
 
+.card3:hover .second3-content {
+  opacity: 1;
+  height: 100%;
+  font-size: 21px;
+  transform: rotate(0deg);
+}
 
-    background-image: url(../imgs/33333.jpg);
-    background-size: cover; /* Ajusta la imagen al tamaño del cuerpo */
-    transition: all 0.4s;
-    border-radius: 10px;
-    box-shadow: 0px 0px 10px 5px  rgba(0, 0, 0, 0.705);
-    font-size: 30px;
-    font-weight: 900;
-    grid-column: 7/10;
-    grid-row: 7/10;
-    
-  }
-  
-  .card3:hover {
+/* card 4 */
 
-    border-radius: 15px;
-    cursor: pointer;
-    transform: scale(1.2);
-    box-shadow: 0px 0px 10px 5px  rgba(0, 0, 0, 0.705);
-    background: rgb(11, 122, 21);
+.card4 {
+  background-image: url(../imgs/2222.jpg);
+  background-size: cover; /* Ajusta la imagen al tamaño del cuerpo */
+  transition: all 0.4s;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.705);
+  font-size: 30px;
+  font-weight: 900;
+  grid-column: 11/14;
+  grid-row: 7/10;
+}
 
-  }
-  
-  .first3-content {
-    height: 100%;
-    width: 100%;
-    font-size: 24px;
-    transition: all 0.1s;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    opacity: 1;
-    border-radius: 15px;
-    background-image: url(../imgs/transparencia.png);
-    background-size: cover;
+.card4:hover {
+  border-radius: 15px;
+  cursor: pointer;
+  transform: scale(1.2);
+  box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.705);
+  background: rgb(11, 122, 21);
+}
 
+.first4-content {
+  height: 100%;
+  width: 100%;
+  font-size: 24px;
+  transition: all 0.1s;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  text-align: justify;
+  opacity: 1;
+  border-radius: 15px;
+  background-image: url(../imgs/transparencia.png);
+  background-size: cover;
+}
 
-  }
-  
-  .card3:hover .first3-content {
-    height: 0px;
-    opacity: 0;
+.card4:hover .first4-content {
+  height: 0px;
+  opacity: 0;
+}
 
-  }
-  
-  .second3-content {
-    height: 0%;
-    width: 100%;
-    opacity: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    border-radius: 15px;
-    transition: all 0.1s;
-    font-size: 0px;
-    transform: rotate(90deg) scale(-1);
+.second4-content {
+  height: 0%;
+  width: 100%;
+  opacity: 0;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 15px;
+  transition: all 0.1s;
+  font-size: 0px;
+  transform: rotate(90deg) scale(-1);
+}
 
-  }
-  
-  .card3:hover .second3-content {
-    opacity: 1;
-    height: 100%;
-    font-size: 21px;
-    transform: rotate(0deg);
+.card4:hover .second4-content {
+  opacity: 1;
+  height: 100%;
+  font-size: 15px;
+  transform: rotate(0deg);
+}
 
-  }
+/* card 5 */
 
-  /* card 4 */
+.card5 {
+  background-image: url(../imgs/111.jpg);
+  background-size: cover; /* Ajusta la imagen al tamaño del cuerpo */
+  background-image: repeating-radial-gradient();
+  transition: all 0.4s;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.705);
+  font-size: 30px;
+  font-weight: 900;
+  grid-column: 3/13;
+  grid-row: 11/14;
+}
 
-  .card4 {
+.card5:hover {
+  border-radius: 15px;
+  cursor: pointer;
+  transform: scale(1.1);
+  box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.705);
+  background: rgb(11, 122, 21);
+}
 
+.first5-content {
+  height: 100%;
+  width: 100%;
+  transition: all 0.1s;
+  display: flex;
+  justify-content: center;
+  align-items: normal;
+  text-align: center;
+  opacity: 1;
+  border-radius: 15px;
+  background-image: url(../imgs/transparencia.png);
+  background-size: cover;
+}
 
-    background-image: url(../imgs/2222.jpg);
-    background-size: cover; /* Ajusta la imagen al tamaño del cuerpo */
-    transition: all 0.4s;
-    border-radius: 10px;
-    box-shadow: 0px 0px 10px 5px  rgba(0, 0, 0, 0.705);
-    font-size: 30px;
-    font-weight: 900;
-    grid-column: 11/14;
-    grid-row: 7/10;
-    
-  }
-  
-  .card4:hover {
+.card5:hover .first5-content {
+  height: 0px;
+  opacity: 0;
+}
 
-    border-radius: 15px;
-    cursor: pointer;
-    transform: scale(1.2);
-    box-shadow: 0px 0px 10px 5px  rgba(0, 0, 0, 0.705);
-    background: rgb(11, 122, 21);
+.second5-content {
+  height: 0%;
+  width: 100%;
+  text-align: center;
+  opacity: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 15px;
+  transition: all 0.1s;
+  font-size: 0px;
+  transform: rotate(90deg) scale(-1);
+}
 
-  }
-  
-  .first4-content {
-    height: 100%;
-    width: 100%;
-    font-size: 24px;
-    transition: all 0.1s;
-    display: flex;
-    justify-content: center;
-    align-items: flex-end;
-    text-align: justify;
-    opacity: 1;
-    border-radius: 15px;
-    background-image: url(../imgs/transparencia.png);
-    background-size: cover;
-
-
-  }
-  
-  .card4:hover .first4-content {
-    height: 0px;
-    opacity: 0;
-
-  }
-  
-  .second4-content {
-    height: 0%;
-    width: 100%;
-    opacity: 0;
-    text-align: center;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 15px;
-    transition: all 0.1s;
-    font-size: 0px;
-    transform: rotate(90deg) scale(-1);
-
-  }
-  
-  .card4:hover .second4-content {
-    opacity: 1;
-    height: 100%;
-    font-size: 15px;
-    transform: rotate(0deg);
-
-  }
-
-
-
-  /* card 5 */
-
-  .card5 {
-
-
-    background-image:url(../imgs/111.jpg);
-   background-size: cover; /* Ajusta la imagen al tamaño del cuerpo */
-    background-image: repeating-radial-gradient();
-    transition: all 0.4s;
-    border-radius: 10px;
-    box-shadow: 0px 0px 10px 5px  rgba(0, 0, 0, 0.705);
-    font-size: 30px;
-    font-weight: 900;
-    grid-column: 3/13;
-    grid-row: 11/14;
-    
-  }
-  
-  .card5:hover {
-
-    border-radius: 15px;
-    cursor: pointer;
-    transform: scale(1.1);
-    box-shadow: 0px 0px 10px 5px  rgba(0, 0, 0, 0.705);
-    background: rgb(11, 122, 21);
-
-  }
-  
-  .first5-content {
-    height: 100%;
-    width: 100%;
-    transition: all 0.1s;
-    display: flex;
-    justify-content: center;
-    align-items:normal;
-    text-align: center;
-    opacity: 1;
-    border-radius: 15px;
-    background-image: url(../imgs/transparencia.png);
-    background-size: cover;
-
-
-  }
-  
-  .card5:hover .first5-content {
-    height: 0px;
-    opacity: 0;
-
-  }
-  
-  .second5-content {
-    height: 0%;
-    width: 100%;
-    text-align: center;
-    opacity: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 15px;
-    transition: all 0.1s;
-    font-size: 0px;
-    transform: rotate(90deg) scale(-1);
-
-  }
-  
-  .card5:hover .second5-content {
-    opacity: 1;
-    height: 100%;
-    font-size: 35px;
-    transform: rotate(0deg);
-
-  }
+.card5:hover .second5-content {
+  opacity: 1;
+  height: 100%;
+  font-size: 35px;
+  transform: rotate(0deg);
+}
